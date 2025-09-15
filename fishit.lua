@@ -6,12 +6,12 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Membuat window utama
 local Window = Rayfield:CreateWindow({
-    Name = "NIKZZ MODDER - Fish It",
+    Name = "ZONE MODDER - Fish It",
     LoadingTitle = "Memuat Mod Menu...",
-    LoadingSubtitle = "by NikzzModder",
+    LoadingSubtitle = "by ZoneModder",
     ConfigurationSaving = {
         Enabled = true,
-        FolderName = "NikzzModderConfig",
+        FolderName = "ZoneModderConfig",
         FileName = "FishItConfig"
     },
     Discord = {
@@ -618,7 +618,7 @@ MiscTab:CreateButton({
 
 -- Notifikasi awal
 Rayfield:Notify({
-    Title = "NIKZZ MODDER Loaded",
+    Title = "ZONE MODDER Loaded",
     Content = "Script berhasil dimuat! Selamat memancing!",
     Duration = 6,
     Image = 4483362458,
